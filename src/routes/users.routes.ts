@@ -9,10 +9,12 @@ import {
 
 const RouterGit = Router();
 
-RouterGit.get("/user", getAllUsers);
-RouterGit.get("/user/:id,", getUser);
-RouterGit.post("/user", createUser);
-RouterGit.put("/user/:id", updateUser);
-RouterGit.delete("/user/:id", deleteUser);
+// Operaciones CRUD
+
+RouterGit.get("/user", getAllUsers); //Read
+RouterGit.get("/user/:id,", getUser); //Read
+RouterGit.post("/user", createUser); //Create
+RouterGit.put("/user/:id", updateUser); //Update (actualizacion parcial)
+RouterGit.delete("/user/:id", deleteUser); //Delete
 
 export default RouterGit;
