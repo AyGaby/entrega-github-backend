@@ -19,6 +19,7 @@ export const getUser = (req: Request, res: Response) => {
       {
         name: "Gaby",
         year: 1900,
+        bio: "ʕ•́ᴥ•̀ʔっ♡ Lorem Ipsum",
       },
     ],
   });
